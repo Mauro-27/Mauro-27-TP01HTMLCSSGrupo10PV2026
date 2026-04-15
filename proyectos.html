@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de Proyectos</title>
+</head>
+<body>
+
+    <header>
+        <h1>Plataforma de Gestión de Proyectos Educativos</h1>
+        <p>Explorador de proyectos</p>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="detalle.html">Detalle</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <h2>Filtros</h2>
+
+            <form>
+                <p>
+                    <label for="categoria">Categoría:</label>
+                    <select id="categoria" name="categoria">
+                        <option value="">Todas</option>
+                        <option value="programacion">Programación</option>
+                        <option value="robotica">Robótica</option>
+                        <option value="matematica">Matemática</option>
+                        <option value="ciencias">Ciencias</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="anio">Año:</label>
+                    <select id="anio" name="anio">
+                        <option value="">Todos</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="estado">Estado:</label>
+                    <select id="estado" name="estado">
+                        <option value="">Todos</option>
+                        <option value="en-curso">En curso</option>
+                        <option value="finalizado">Finalizado</option>
+                    </select>
+                </p>
+            </form>
+        </aside>
+
+        <section>
+            <h2>Listado de Proyectos</h2>
+
+            <article>
+                <h3>Curso Inicial de HTML para Estudiantes</h3>
+                <img src="https://thumbs.dreamstime.com/b/icono-html-de-codificaci%C3%B3n-c%C3%B3digo-dise%C3%B1o-vectorial-simple-ilustraci%C3%B3n-editable-meticuloso-232025620.jpg?w=768" alt="Imagen del proyecto de curso inicial de HTML" width="200">
+                <p>Proyecto orientado a enseñar a los alumnos las bases de HTML para crear páginas web educativas.</p>
+                <p><strong>Categoría:</strong> Programación</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article>
+                <h3>Huerta Escolar Automatizada</h3>
+                <img src="https://www.edsrobotics.com/wp-content/uploads/2021/10/robotica-educativa-que-es.jpg" alt="Imagen del proyecto de huerta escolar automatizada" width="200">
+                <p>Trabajo educativo que integra sensores y tecnología para mejorar el riego y el control de una huerta escolar.</p>
+                <p><strong>Categoría:</strong> Robótica</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article>
+                <h3>Matemática Interactiva</h3>
+                <img src="https://st.depositphotos.com/3256961/4366/v/950/depositphotos_43662399-stock-illustration-open-book-and-icons-of.jpg" alt="Imagen del proyecto de matemática interactiva" width="200">
+                <p>Espacio de apoyo con actividades digitales para reforzar operaciones, lógica y resolución de problemas.</p>
+                <p><strong>Categoría:</strong> Matemática</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article>
+                <h3>Laboratorio Virtual de Ciencias</h3>
+                <img src="https://thumbs.dreamstime.com/b/sistema-del-vector-del-icono-de-la-historieta-del-laboratorio-del-icono-de-la-materia-de-la-ciencia-59065031.jpg?w=768" alt="Imagen del proyecto de laboratorio virtual de ciencias" width="200">
+                <p>Propuesta para acercar experimentos y contenidos científicos a los alumnos mediante recursos virtuales.</p>
+                <p><strong>Categoría:</strong> Ciencias</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <article>
+                <h3>Biblioteca Digital para la Escuela</h3>
+                <img src="https://www.afpsarafaisal.org.ar/wp-content/uploads/2020/04/bibliografia-digital.png" alt="Imagen del proyecto de biblioteca digital" width="200">
+                <p>Proyecto destinado a organizar materiales de estudio, lecturas y recursos académicos en formato digital.</p>
+                <p><strong>Categoría:</strong> Educación</p>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Trabajo Práctico N° 1 - Programación Visual</p>
+    </footer>
+
+</body>
+</html>
