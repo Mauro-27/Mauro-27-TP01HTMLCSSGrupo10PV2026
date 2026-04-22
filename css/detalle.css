@@ -5,44 +5,57 @@
 }
 
 body{
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: #f0f2f5;
     color: #222;
     line-height: 1.6;
 }
 
-header{
-    background-color: #1a1a2e;
+#titulo{
+    text-align: center;
+    background-color: #9D072F;
     color: #fff;
     padding: 24px 32px;
-}
-
-header h1{
-    font-size: 1.4rem;
     font-weight: 500;
 }
 
+#titulo h1{
+    font-size: 1.5rem;
+
+}
+
+#titulo h3{
+    color: #ddd;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
 nav{
-    background-color: #2A2A4B;
-    padding: 0px 32px;
+    background-color: #DB0941;
+    padding: 8px;
 }
 
 nav ul{
     list-style: none;
     display: flex;
+    justify-content: center;
 }
 
 nav ul li a{
     display: block;
-    padding: 14px 16px;
-    color: #c9c6c6;
+    padding: 8px 24px;
+    margin: 0 12px;
+    color: #aaa;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    border-radius: 12px;
+    /*transicion suave*/
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 nav ul li a:hover{
     color: #fff;
-    background-color: #3B3B68;
+    background-color: #F50A49;
 }
 
 main{
@@ -51,7 +64,7 @@ main{
     padding: 0px 24px;
 }
 
-main section{
+.card{
     background-color: #fff;
     border-radius: 10px;
     padding: 24px 32px;
@@ -59,36 +72,54 @@ main section{
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
 }
 
-section h2{
+.card h2{
     font-size: 1.3rem;
     color: #1a1a2e;
     margin-bottom: 8px;
     padding-bottom: 8px;
 }
 
-section h3{
+.card h3{
     font-size: 1.1rem;
     color: #333;
     margin-bottom: 10px
 }
 
-section p{
+.card p{
     color: #444;
     margin-bottom: 12px;
 }
 
-section ul, section ol{
+.card ul, ol{
     padding-left: 40px;
     color: #444
 }
 
-section li{
+.card li{
     margin-bottom: 6px;
 }
 
-footer{
-    background-color:#2A2A4B;
-    color: #c9c6c6;
+.card.recursos ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.5s ease;
+}
+
+.card.recursos a:link{
+    color: #333;
+}
+
+.card.recursos a:visited{
+    color: #333;
+}
+
+.card.recursos a:hover{
+    color: #DB0941;
+}
+
+footer {
+    background-color: #DB0941;
+    color: #bbb;
+    padding: 32px;
     text-align: center;
-    padding: 20px;
 }
